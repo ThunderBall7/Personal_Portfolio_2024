@@ -1,0 +1,32 @@
+
+
+.icon-container {
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: 5%;
+  left: 300%;
+  background-color: grey;
+  color: white;
+  padding: 0 10px;
+  border-radius: 5px;
+  display: none;
+  transition: opacity 0.3s;
+}
+
+.label::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -9px;
+  transform: translateY(-50%);
+  border-width: 10px 10px 10px 0;
+  border-style: solid;
+  border-color: transparent grey transparent transparent;
+}
+
+.icon-container:hover .label {
+  display: block;
+}
