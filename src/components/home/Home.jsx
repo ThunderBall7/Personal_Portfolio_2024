@@ -4,7 +4,7 @@ import profile from '../../assets/Profile.png'
 import GitHub from '../../assets/GitHub.png'
 import LinkedIn from '../../assets/LinkedIn.png'
 import Telegram from '../../assets/Telegram.png'
-import Whatsapp from '../../assets/Whatsapp.png'
+import whatsapp from '../../assets/whatsapp.png'
 import './style.css'
 
 const Home = () => {
@@ -46,7 +46,7 @@ const Home = () => {
             <img className="w-7 h-7" src={GitHub} />
             <img className="w-7 h-7" src={Telegram} />
             <img className="w-7 h-7" src={LinkedIn} />
-            <img className="w-7 h-7" src={Whatsapp} />
+            <img className="w-7 h-7" src={whatsapp} />
           </div>
 
           <div className='flex justify-center relative mb-4'>
