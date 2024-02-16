@@ -1,0 +1,21 @@
+.work_title::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: -10px;
+    width: 3px;
+    height: 80%;
+    background-color: gray;
+    border-radius:30px;
+  }
+
+  .project_title::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: -10px;
+    width: 3px;
+    height: 80%;
+    background-color: #FFAF14;
+    border-radius:30px;
+  }

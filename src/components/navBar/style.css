@@ -30,3 +30,9 @@
 .icon-container:hover .label {
   display: block;
 }
+
+@media (max-width: 1024px) {
+  .icon-container:hover .label{
+    display: none;
+  }
+  }

@@ -23,13 +23,16 @@
   content: '';
   position: absolute;
   top: 50%;;
-  left: 4.5px;
+  left: 4px;
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
   border-radius: 50%;
   background-color: transparent;
   animation: glow 1.5s infinite;
+}
+.text-custom-color {
+  fill: var(--text-color);
 }
 
 #copyAlert {
@@ -38,33 +41,40 @@
   border-radius: 4px;
   position: absolute;
   bottom: 0;
-  right: 0;
+  /* right: 75px; */
   transition: opacity 0.5s ease-in-out;
   transform: translateY(12%);
 }
 
-.workPopUp > div {
+.workPopUp .popup-item {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0s linear;
+  transform: rotateX(5deg) rotate(0deg) rotateY(5deg);
+  box-shadow: -30px 70px 150px -20px rgba(51, 51, 51, 0.25);
+  border-radius: 30px;
+  will-change: opacity, visibility, transform;
 }
 
-.project1:hover .workPopUp > div:nth-child(1) {
+.hoverButton:hover + .workPopUp .popup-item:nth-child(1) {
   opacity: 1;
   visibility: visible;
   transition-delay: 0.1s;
+
 }
 
-.project1:hover .workPopUp > div:nth-child(2) {
+.hoverButton:hover + .workPopUp .popup-item:nth-child(2) {
   opacity: 1;
   visibility: visible;
   transition-delay: 0.2s;
+
 }
 
-.project1:hover .workPopUp > div:nth-child(3) {
+.hoverButton:hover + .workPopUp .popup-item:nth-child(3) {
   opacity: 1;
   visibility: visible;
   transition-delay: 0.3s;
+
 }
 
 

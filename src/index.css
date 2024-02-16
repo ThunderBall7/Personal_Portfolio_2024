@@ -7,3 +7,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.lightTheme{
+  --bg-color: white;
+  --text-color: black;
+  --text-color-2: black;
+}
+
+.darkTheme{
+  --bg-color: black;
+  --text-color: white;
+  --text-color-2: #B8B8B8;
+}
