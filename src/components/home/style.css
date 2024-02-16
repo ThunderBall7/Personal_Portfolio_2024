@@ -77,6 +77,19 @@
 
 }
 
-
+@media (max-width: 768px) {
+.text-vertical {
+  /* writing-mode: vertical-rl; */
+  text-orientation: mixed;
+  /* transform: rotateX(5deg) rotate(0deg) rotateY(10deg); */
+  transform: rotateY(0deg) rotate(-90deg) rotateY(0deg);
+  width: 90px;
+  height: 30px;
+  font-size: 15px;
+}
+.main_div{
+  overflow: hidden;
+}
+}
 
 

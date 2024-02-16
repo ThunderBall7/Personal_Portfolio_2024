@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <>
     <div className=''>
-    <div className='lg:w-16 lg:h-screen fixed lg:bottom-0 md:left-0 bottom-0 z-50 w-full h-12 bg-neutral-50 flex lg:flex-col items-center justify-center text-center lg:gap-4 border-r-2'>
+    <div className='lg:w-16 lg:h-screen fixed lg:bottom-0 md:left-0 bottom-0 z-50 w-full h-12 bg-neutral-50 flex lg:flex-col items-center justify-center text-center lg:gap-10 border-r-2'>
 
       <div className='icon-container lg:w-6 mx-auto cursor-pointer'>
         <Link to="/">

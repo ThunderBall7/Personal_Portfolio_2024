@@ -55,7 +55,7 @@ const Home = () => {
 
 
   return (
-    <div className='lg:w-1/2 m-auto text-center pl-1 pr-1 lg:pl-10 text-[var(--text-color);] overflow-hidden'>
+    <div className='main_div lg:w-1/2 m-auto text-center sm:pl-1 sm:pr-1 lg:pl-10 text-[var(--text-color);]'>
       <div className='absolute right-10 hidden lg:block'>
       <ToggleButton/>
       </div>
@@ -95,7 +95,7 @@ const Home = () => {
         </div>
         </main>
 
-        <section className='mb-16 lg:w-[545px] mx-auto text-left relative'>
+        <section className='mb-16 lg:w-[545px] mx-auto text-left relative '>
           <p className='mb-4'>
           I'm Manish Maurya transitioned into development, I've found my passion lies in Frontend Development and building products from scratch.
           </p>
@@ -110,12 +110,26 @@ const Home = () => {
         <section className='mb-16 lg:w-[545px] mx-auto relative'>
 
         <div className='project1 w-80 h-42 lg:w-[565px] lg:h-[362px] mx-auto mb-10 rounded-lg bg-stone-100 relative'>
+
           <p className='h-14 text-black transform translate-y-3'>Previous Portfolio</p>
           <div className='lg:w-[535px] mx-auto lg:h-[270px] w-72  h-40 bg-zinc-200 rounded-lg'>
             <div>
               <img src={portfolioImage} className='rounded-md' alt="" />
             </div>
           </div>
+          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-16  gap-16 lg:gap-6'>
+              <a
+                href='https://personal-portfolio-kappa-ivory.vercel.app/'
+                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                >Live Project
+                </a>
+                <a
+                  href='https://github.com/ThunderBall7/Personal_Portfolio'
+                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                  >
+                  GitHub
+                </a>
+              </div>
           <div className="hoverButton absolute top-3 z-20 right-6 w-36 h-7 bg-white border border-gray-400 rounded-xl cursor-pointer hover:shadow-[0_4px_0px_rgb(220,220,220)] hover:-translate-y-1 transition-all text-black hidden lg:block">Hover on me</div>
           <div className='workPopUp hidden lg:block'>
             <div className='popup-item absolute -left-52 top-6 right-2 w-80 h-80 bg-gray-100 drop-shadow-2xl border border-gray-400 z-10'>
@@ -135,6 +149,19 @@ const Home = () => {
           <div className='lg:w-[535px] mx-auto lg:h-[270px] w-72  h-40 bg-zinc-200 rounded-lg'>
             <img src={ecommImage} alt="" />
           </div>
+          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-16  gap-16 lg:gap-6'>
+              <a
+                href='https://stone-store-gamma.vercel.app/'
+                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                >Live Project
+                </a>
+                <a
+                  href='https://github.com/ThunderBall7/IManishMaurya'
+                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                  >
+                  GitHub
+                </a>
+              </div>
           <div className="hoverButton absolute top-3 z-20 right-6 w-36 h-7 bg-white border border-gray-400 rounded-xl cursor-pointer text-black hidden lg:block">Hover on me</div>
           <div className='workPopUp hidden lg:block'>
             <div className='popup-item absolute -left-52 top-6 right-2 w-80 h-80 bg-gray-100 drop-shadow-2xl z-10 border border-gray-400'>
@@ -154,6 +181,19 @@ const Home = () => {
           <div className='lg:w-[535px] mx-auto lg:h-[270px] w-72  h-40 bg-zinc-200 rounded-lg'>
             <img className='object-contain w-full h-full' src={movix} alt="" />
           </div>
+          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-16  gap-16 lg:gap-6'>
+              <a
+                href='https://movix-sooty-phi.vercel.app/'
+                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                >Live Project
+                </a>
+                <a
+                  href='https://github.com/ThunderBall7/MoviX'
+                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                  >
+                  GitHub
+                </a>
+              </div>
           <div className="hoverButton absolute top-3 z-20 right-6 w-36 h-7 bg-white border border-gray-400 rounded-xl cursor-pointer text-black hidden lg:block">Hover on me</div>
           <div className='workPopUp md:display:none'>
             <div className='popup-item absolute -left-52 top-6 right-2 w-80 h-80 bg-gray-100 drop-shadow-2xl z-10 border border-gray-400'>
@@ -173,6 +213,19 @@ const Home = () => {
           <div className='lg:w-[535px] mx-auto lg:h-[270px] w-72  h-40 bg-zinc-200 rounded-lg'>
             <img className='object-contain w-full h-full' src={ageCalc} alt="" />
           </div>
+          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-16  gap-16 lg:gap-6'>
+              <a
+                href='https://age-calc-olive.vercel.app/'
+                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                >Live Project
+                </a>
+                <a
+                  href='https://github.com/ThunderBall7/Age_Calc'
+                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                  >
+                  GitHub
+                </a>
+              </div>
           <div className="hoverButton absolute top-3 z-20 right-6 w-36 h-7 bg-white border border-gray-400 rounded-xl cursor-pointer text-black hidden lg:block">Hover on me</div>
           <div className='workPopUp md:display:none'>
             <div className='popup-item absolute -left-52 top-6 right-2 w-80 h-80 bg-gray-100 drop-shadow-2xl z-10 border border-gray-400'>
@@ -192,6 +245,19 @@ const Home = () => {
           <div className='lg:w-[535px] mx-auto lg:h-[270px] w-72  h-40 bg-zinc-200 rounded-lg'>
             <img src={todo} className='object-contain w-full h-full' alt="" />
           </div>
+          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-16  gap-16 lg:gap-6'>
+              <a
+                href='https://todo-react-cy3q.vercel.app/'
+                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                >Live Project
+                </a>
+                <a
+                  href='https://github.com/ThunderBall7/todoReact'
+                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                  >
+                  GitHub
+                </a>
+              </div>
           <div className="hoverButton absolute top-3 z-20 right-6 w-36 h-7 bg-white border border-gray-400 rounded-xl cursor-pointer text-black hidden lg:block">Hover on me</div>
           <div className='workPopUp md:display:none'>
             <div className='popup-item absolute -left-52 top-6 right-2 w-80 h-80 bg-gray-100 drop-shadow-2xl z-10 border border-gray-400'>
