@@ -117,7 +117,7 @@ const Home = () => {
               <img src={portfolioImage} className='rounded-md' alt="" />
             </div>
           </div>
-          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-16  gap-16 lg:gap-6'>
+          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-12  gap-16 lg:gap-6'>
               <a
                 href='https://personal-portfolio-kappa-ivory.vercel.app/'
                 className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
@@ -149,7 +149,7 @@ const Home = () => {
           <div className='lg:w-[535px] mx-auto lg:h-[270px] w-72  h-40 bg-zinc-200 rounded-lg'>
             <img src={ecommImage} alt="" />
           </div>
-          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-16  gap-16 lg:gap-6'>
+          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-12  gap-16 lg:gap-6'>
               <a
                 href='https://stone-store-gamma.vercel.app/'
                 className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
@@ -181,7 +181,7 @@ const Home = () => {
           <div className='lg:w-[535px] mx-auto lg:h-[270px] w-72  h-40 bg-zinc-200 rounded-lg'>
             <img className='object-contain w-full h-full' src={movix} alt="" />
           </div>
-          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-16  gap-16 lg:gap-6'>
+          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-12  gap-16 lg:gap-6'>
               <a
                 href='https://movix-sooty-phi.vercel.app/'
                 className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
@@ -213,7 +213,7 @@ const Home = () => {
           <div className='lg:w-[535px] mx-auto lg:h-[270px] w-72  h-40 bg-zinc-200 rounded-lg'>
             <img className='object-contain w-full h-full' src={ageCalc} alt="" />
           </div>
-          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-16  gap-16 lg:gap-6'>
+          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-12  gap-16 lg:gap-6'>
               <a
                 href='https://age-calc-olive.vercel.app/'
                 className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
@@ -245,7 +245,7 @@ const Home = () => {
           <div className='lg:w-[535px] mx-auto lg:h-[270px] w-72  h-40 bg-zinc-200 rounded-lg'>
             <img src={todo} className='object-contain w-full h-full' alt="" />
           </div>
-          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-16  gap-16 lg:gap-6'>
+          <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-12  gap-16 lg:gap-6'>
               <a
                 href='https://todo-react-cy3q.vercel.app/'
                 className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
