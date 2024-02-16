@@ -70,11 +70,20 @@ const Home = () => {
           <p className='mb-4'>
             <span className='glowDot text-green-500'></span> <span className='ml-2'>Available for new opportunites</span></p>
             <div className='flex justify-center items-center gap-4 mb-4'>
-            <FaSquareGithub className="w-8 h-8 fill-[var(--text-color-2)]"/>
-            <FaTelegram className="w-7 h-7 fill-[var(--text-color-2)]"/>
-            <GrLinkedin className="w-7 h-7 fill-[var(--text-color-2)]" />
-            <FaSquareWhatsapp className="w-8 h-8 fill-[var(--text-color-2)]" />
-          </div>
+              <a href='https://github.com/ThunderBall7'>
+                <FaSquareGithub className='w-8 h-8 fill-[var(--text-color-2)]' />
+              </a>
+              <a href='https://t.me/manish_mauryaa'>
+                <FaTelegram className='w-7 h-7 fill-[var(--text-color-2)]' />
+              </a>
+              <a href='https://www.linkedin.com/in/manish-maurya-229a98102/'>
+                <GrLinkedin className='w-7 h-7 fill-[var(--text-color-2)]' />
+              </a>
+              <a href='https://wa.me/9867319116'>
+                <FaSquareWhatsapp className='w-8 h-8 fill-[var(--text-color-2)]' />
+              </a>
+            </div>
+
 
           <div className='flex justify-center relative mb-4'>
             <p id='email' className='border border-gray-300 p-2 rounded'>manishmaurya.2204@gmail.com</p>
