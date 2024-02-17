@@ -129,12 +129,12 @@ const Home = () => {
           <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-12  gap-16 lg:gap-6'>
               <a
                 href='https://personal-portfolio-kappa-ivory.vercel.app/'
-                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-100'
                 >Live Project
                 </a>
                 <a
                   href='https://github.com/ThunderBall7/Personal_Portfolio'
-                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-100'
                   >
                   GitHub
                 </a>
@@ -161,12 +161,12 @@ const Home = () => {
           <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-12  gap-16 lg:gap-6'>
               <a
                 href='https://stone-store-gamma.vercel.app/'
-                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-100'
                 >Live Project
                 </a>
                 <a
                   href='https://github.com/ThunderBall7/IManishMaurya'
-                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-100'
                   >
                   GitHub
                 </a>
@@ -193,12 +193,12 @@ const Home = () => {
           <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-12  gap-16 lg:gap-6'>
               <a
                 href='https://movix-sooty-phi.vercel.app/'
-                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-100'
                 >Live Project
                 </a>
                 <a
                   href='https://github.com/ThunderBall7/MoviX'
-                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-100'
                   >
                   GitHub
                 </a>
@@ -225,12 +225,12 @@ const Home = () => {
           <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-12  gap-16 lg:gap-6'>
               <a
                 href='https://age-calc-olive.vercel.app/'
-                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-100'
                 >Live Project
                 </a>
                 <a
                   href='https://github.com/ThunderBall7/Age_Calc'
-                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-100'
                   >
                   GitHub
                 </a>
@@ -257,12 +257,12 @@ const Home = () => {
           <div className=' flex flex-col justify-center absolute lg:top-32 top-12 -right-12  gap-16 lg:gap-6'>
               <a
                 href='https://todo-react-cy3q.vercel.app/'
-                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-100'
                 >Live Project
                 </a>
                 <a
                   href='https://github.com/ThunderBall7/todoReact'
-                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-200'
+                  className='text-vertical border border-gray-400 rounded-lg p-1 text-black bg-gray-100'
                   >
                   GitHub
                 </a>
